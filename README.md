@@ -3,7 +3,7 @@
 | -------------  | --- |
 | :sparkles: Nome        | Login - Burguer Mania
 | :label: Tecnologias | HTML5, CSS3, PHP
-| :rocket: URL         | 
+| :rocket: URL         |  X
 
 ![image](https://github.com/JorgeRangell/Php-Login/assets/101427212/491888b3-010b-4dfc-90b7-9884b14ce014)
 
