@@ -10,6 +10,9 @@
 Login usando PHP, implementado no meu site Burguer Mania (Usuário: cliente, Senha: 1234).
 Funciona através do Local Host.
 
+![image](https://github.com/JorgeRangell/Php-Login/assets/101427212/96b6b77a-0dc4-4220-a667-821766f0626e)
+
+
 ## Objetivos
 
 * Melhor interação com o cliente.
