@@ -1,0 +1,110 @@
+*{
+    font-family: Tahoma, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #101016; 
+    margin: 0px;
+    margin: 0px 200px 0px 200px; 
+    padding: -200px 0 -200px 0;
+    font-size: 20px;
+}
+
+.logo{
+    height: 200px;
+    width: 350px;
+    position: relative;
+}
+
+.index-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: orange;
+    margin: 0;
+}
+
+input{
+    border-radius: 4px;
+    border-style: solid;
+    text-align: center;
+    font-size: 20px;
+}
+
+.index-form label, .index-form input {
+    margin: 2px 0;
+}
+
+.acessar{
+    margin: 5px 0;
+    width: 27%;
+    padding: 15px;
+    background: orange;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 25px;
+    border: None;
+    border-radius: 10px;
+    transition: 1s all;
+    cursor: pointer;
+    position: relative;
+}
+
+.acessar:hover{
+	background: darkorange;
+	transform: scale(1.04);
+}
+
+.error-box{
+    background-color: orange;
+    justify-content: center;
+    align-items: center;   
+    margin: 25px 20px 10px 20px;
+    border-radius: 10px;
+    padding: 0 5px 0 5px;
+    width: 30%;
+}
+
+.error-box:hover{
+    cursor: pointer;
+}
+
+.error-item{
+    padding: 2px;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    text-align: center; 
+}
+
+.bg-user{
+    background-color: rgb(130, 125, 201);
+}
+
+.bg-admin{
+    background-color: rgb(75, 75, 255);
+}
+@media screen and (max-width: 900px){
+    body{
+        background-color: #101016; 
+        margin: 0px;
+        margin: 0; 
+        padding: 0;
+        font-size: 20px;
+    }
+    
+    .error-box{
+        background-color: orange;
+        justify-content: auto;
+        align-items: auto;   
+        margin: 0;
+        border-radius: 10px;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+}
